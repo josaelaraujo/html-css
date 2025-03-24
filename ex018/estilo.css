@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'start';
+    src: url('fontes/Starting\ Pitchers\ -\ Personal\ Used.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* 
+    Tipos de format()
+        openty (otf)
+        truetype (ttf)
+        embedded-opentype
+        tretypw-aat (Apple Advanced Typography)
+        svg*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    background-image: linear-gradient(to right, #04285e, #113f85, #4c668d);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #b8a6a6;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'start', serif;
+    font-size: 3em;
+    text-align: center;
+    margin-left: auto;
+}
+
+h2 {
+    font-family: 'Kaushan Script', serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+a {
+    color: beige;
+    border-bottom-right-radius: unset;
+    background-color: rgba(55, 117, 117, 0.596);
+    margin-block: auto;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: rgb(196, 194, 202);
+    background-color: darkslategray;
+}
+h2{
+    color: rgb(48, 107, 62);
+}
